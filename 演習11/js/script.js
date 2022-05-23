@@ -6,4 +6,5 @@ function printDataByName(name){
         console.log(elm[i].innerText + "位:" + elm[i + 1].innerText);
     }
 }
+
 printDataByName("ranking");
