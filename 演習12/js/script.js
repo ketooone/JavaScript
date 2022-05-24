@@ -24,7 +24,6 @@ function getBloodtypeDataById(id){
     }
 }
 
-//todo 複数選択を取得する際に改行なしでconsoleに出力する
 function getMultipleDataById(id){
     const elm = document.getElementById(id).options;
     let selects = [elm.length]; //selectされた要素だけを入れる関数
