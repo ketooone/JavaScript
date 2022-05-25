@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+body{
+    font-family: "メイリオ";
+    /*background-image: url();*/
+    width: 95%;
+}
+
+.cl{
+    float: right;
+} 
+
+.wellbeing {
+    display: inline-block;
+    margin-left: px;
+    padding-top: 10px;
+    font-size: 16px;
+    color: inherit;
+    vertical-align: top;
+}
+
+
+article img{
+    float: left;
+    width: 30%;
+}
+
+article{
+    background-color: aliceblue;
+    width: 100%;
+    padding: 20px;
+    padding-top: 0;
+    border-width: 3px;
+    border-style: dotted;
+    border-color: black;
+    border-radius: 10px;
+}
+
+
+table{
+    margin: 10px 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000000;
+    border-collapse: collapse;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    color: #0000ff;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0 5px;
+}
+
+a:hover{
+    color: #0000ff;
+}
+
+#question{
+    font-weight: bold;
+}
+
+th{
+    background-color: #07fff5;
+    width: 30%;
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+}
+
+td{
+    padding: 5px;
+}
+
+dd{
+    margin: 0 0 1em 1em;
+}
+
+dt{
+    padding-left: 0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    border-left-width: 10px;
+    border-left-style: solid;
+    border-left-color: #07fff5;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+}
+
+li{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+footer{
+    text-align: left;
+}
+
+footer img{
+    float: left;
+    padding: 10px;
+}
+
+footer div{
+    float: left;
+    margin-top: 2em;
+    margin-left: 2em;
+}
